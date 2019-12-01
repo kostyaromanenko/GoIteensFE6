@@ -1,0 +1,106 @@
+body{
+    background-color: gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    display: inline-block;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    background-color: white;
+}
+.site-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-list{
+    display: flex;
+    justify-content: space-around;
+    width: 475px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: blue;
+}
+/* ________________________________________________________________MAIN_____________________________________________________________________ */
+.section-header{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 485px;
+    text-align: center;
+}
+.section-header::after{
+    content:"";
+    width: 164px;
+    height: 7px;
+    background-color: green;
+    display: block;
+    margin: 0 auto;
+}
+.product-name{
+    background-color: #666666;
+    width: 200px;
+    height: 40px;
+}
+.product-price{
+   background-color: #920000;
+    width: 54px;
+    height: 40px;
+}
+.product-item{
+    display: flex;
+    width: 255px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-item:hover .product-name{
+    background-color: green;
+}
+.product-item:hover .product-price{
+    background-color: rgb(65, 138, 65);
+}
+/* __________________________________________________________________________________NEWS______________________________________________________________________________________ */
+.news-list{
+    display: flex;
+    justify-content: space-between;
+}
+.news-list__item{
+    width: 350px;
+}
+.news-header{
+    line-height: 28px;
+}
+.news-header::after{
+    content: "";
+    width: 135px;
+    height: 3px;
+    background-color: green;
+    display: block;
+    margin-bottom: 40px;
+}
+.news-btn{
+    width: 160px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+
